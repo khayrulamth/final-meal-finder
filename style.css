@@ -84,10 +84,10 @@ input[type='text'] {
 }
 
 .single-meal img {
-  width: 300px;
+  width: auto;
   margin: 15px;
   border: 4px #fff solid;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .single-meal-info {
@@ -95,6 +95,14 @@ input[type='text'] {
   padding: 10px;
   border: 2px #e09850 dashed;
   border-radius: 5px;
+}
+.image-container{
+  height: 300px;
+  width: auto;
+}
+#featured{
+  object-fit: cover;
+  height: 100%;
 }
 
 .single-meal p {

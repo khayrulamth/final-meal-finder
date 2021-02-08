@@ -67,7 +67,9 @@ function addMealToDOM(meal) {
   singleMeal.innerHTML = `
     <div class="single-meal">
       <h1>${meal.strMeal}</h1>
-      <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
+      <div class="image-container">
+      <img id="featured" src="${meal.strMealThumb}" alt="${meal.strMeal}" />
+      </div>
       <div class="single-meal-info">
         ${meal.strCategory ? `<p> Category: ${meal.strCategory}</p>` : ''}
         ${meal.strArea ? `<p> Origin: ${meal.strArea}</p>` : ''}
